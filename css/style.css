@@ -252,9 +252,50 @@ li a{
     display: flex;
     justify-content: center;
     padding: 60px;
-    gap:150px;
+    gap:350px;
 }
-.leeruitkomst{
+.leeruitkomst1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:white ;
+    width: 350px;
+    height:450px;
+    background-image: url('/assets/pexels-atc-comm-photo-952264.jpg');
+    background-size: cover;
+}
+.leeruitkomst2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white ;
+    width: 350px;
+    height:450px;
+    background-image: url('/assets/Untitled.png');
+    background-size: cover;
+}
+.leeruitkomst3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:white ;
+    width: 350px;
+    height:450px;
+    background-image: url('/assets/pexels-canva-studio-3194519.jpg');
+    background-size: cover;
+}
+.leeruitkomst4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white ;
+    width: 350px;
+    height:450px;
+    background-image: url('/assets/Untitled.png');
+}
+.leeruitkomst5{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -264,6 +305,10 @@ li a{
     background-image: url('/assets/Untitled.png');
 }
 .link-dec-none{
-    color: black;
+    color: white;
     text-decoration: none;
 }
+#container3D canvas {
+    width: 650px !important;
+    height: 450px !important;
+  }
