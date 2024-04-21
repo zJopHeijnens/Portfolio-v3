@@ -9,7 +9,7 @@ import { GLTFLoader } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/l
 const scene = new THREE.Scene();
 //create a new camera with positions and angles
 const camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.set(0, 0, 0.25);
+camera.position.set(0, 0, 0.40);
 //Keep the 3D object on a global variable so we can access it later
 let object;
 //Instantiate a loader for the .gltf file
@@ -31,7 +31,6 @@ loader.load(
     console.error(error);
   }
 );
-
 //Instantiate a new renderer and set its size
 const renderer = new THREE.WebGLRenderer({ alpha: true }); //Alpha: true allows for the transparent background
 renderer.setSize(window.innerWidth, window.innerHeight);

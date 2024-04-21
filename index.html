@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Jop Heijnens | Frontend Developer</title>
-    
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <nav>
@@ -26,7 +32,7 @@
                         <span>HEIJNENS </span>
                         <span>— FRONTEND </span>
                         <span>DEVELOPER —</span>
-                        <span class="collision2">JOP</span>
+                        <span>JOP</span>
                         <span>HEIJNENS </span>
                         <span>— FRONTEND </span>
                         <span>DEVELOPER —</span>
@@ -37,8 +43,12 @@
     </div>
 </section>
 <section>
+    
     <div class="container-middle">
         <div>
+            <div  class="container">
+                <button class="button"><a class="link-dec-none" href="#work">FIND MORE ABOUT MY WORK</a></button>
+            </div>
             <h1 class="main-page-text">Hey there, I'm Jop Heijnens, and I'm all about blending creativity with development to make some seriously cool stuff happen!
             Picture this: I'm diving headfirst into the digital world, armed with my coding skills and a big ol' dose of imagination. Whether it's crafting interactive websites, dreaming up innovative apps, or even whipping up some mind-blowing installations, I'm all in.
             </h1>
@@ -62,37 +72,45 @@
             </div>
         </div> 
     </div>-->
-    <div  class="container">
-        <button href="index.html" class="button">FIND MORE ABOUT MY WORK</button>
-    </div>
+    
     <div class="container">
         <p class="side-text">STUDENT AT FONTYS UNIVERSITY</p>
     </div>
 </section>
 <section>
     <div id="work" class="container-middle" >
-        <a class="link-dec-none" href="leeruitkomst1.html">
-            <div class="leeruitkomst1"><h1>INTERACTIVE MEDIA PRODUCTS</h1></div>
-        </a>    
+        <div class="card1">
+            <a class="link-dec-none" href="IMP.html">
+                <div class="leeruitkomst1"><h1>INTERACTIVE MEDIA PRODUCTS</h1></div>
+            </a>
+        </div>
     </div>
     <div class="container-space">
-        <a class="link-dec-none" href="leeruitkomst2.html">
-            <div class="leeruitkomst2"><h1>DEVELOPMENT</h1></div>
-        </a>
-        <div id="container3D"></div>
+        <div class="card2">
+            <a class="link-dec-none" href="leeruitkomst2.html">
+                <div class="leeruitkomst2"><h1>DEVELOPMENT</h1></div>
+            </a>
+        </div>
+        <div class="card3"><div id="container3D"></div></div>
+        <div class="card4">
         <a class="link-dec-none" href="leeruitkomst3.html">
             <div class="leeruitkomst3"><h1>PROFESSIONAL STANDARDS</h1></div>
         </a>
     </div>
+    </div>
     <div class="container-space-evenly">
+        <div class="card5">
         <a class="link-dec-none" href="leeruitkomst2.html">
-            <div class="leeruitkomst4"><h1>Leeruitkomst 4</h1></div>
-        </a>
-        <a class="link-dec-none" href="leeruitkomst3.html">
-            <div class="leeruitkomst5"><h1>Leeruitkomst 5</h1></div>
+            <div class="leeruitkomst4"><h1>PERSONAL LEADERSHIP</h1></div>
         </a>
     </div>
-    <script type="module" src="js/main.js" defer></script>
+    <div class="card6">
+        <a class="link-dec-none" href="leeruitkomst3.html">
+            <div class="leeruitkomst5"><h1>ITERATIVE DESIGN</h1></div>
+        </a>
+    </div>
         
+    </div>
+    <script type="module" src="js/main.js" defer></script>  
 </section>
 </body>
