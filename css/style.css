@@ -46,11 +46,6 @@ html{
     .m-scroll{
         height: 75% !important;
     }
-    .container-middle{
-        max-width: 390px !important;
-        margin-left: 20px !important;
-        margin-right: 20px !important ;
-    }
     .main-page-text{
         padding-top: 5rem !important;
     }
@@ -73,10 +68,13 @@ html{
     .card6{
         padding-top: 100px;
     }
-    .leeruitkomstcontainer{
+    .leeruitkomstcontainer-1{
         align-items: center !important;
         flex-direction: column !important;
-
+    }
+    .leeruitkomstcontainer-2{
+        align-items: center !important;
+        flex-direction: column-reverse !important;
     }
     .placeholdercard{
         width: 300px !important;
@@ -86,10 +84,24 @@ html{
         width: 300px !important;
         height: 1000px !important;
     }
+    
 }
 /* Medium */
 @media screen and (max-width: 1024px){
-    
+    footer{
+        flex-direction: column !important;
+        align-items: normal !important;
+        padding: 25px;
+    }
+    .footer-name{
+        padding-top: 20px;
+    }
+    .footer-social{
+        padding-top: 20px;
+    }
+    .footer-design{
+        padding-top: 20px;
+    }
 }
 @media screen and (max-width: 840px){
     
@@ -200,10 +212,12 @@ li a{
     justify-content: center;
     max-width:1000px;
     margin: auto;
-    padding: 60px;
+    padding: 80px;
     flex-wrap: wrap;
 }
 .main-page-text{
+    display: flex;
+    align-items: center;
     font-size:12px;
     padding-top: 8rem; 
     padding-bottom:2rem;
@@ -335,7 +349,14 @@ li a{
     display: flex;
     align-items: center;
 }
-.leeruitkomstcontainer{
+.leeruitkomstcontainer-1{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 60px;
+}
+.leeruitkomstcontainer-2{
     width: 1200px;
     display: flex;
     justify-content: space-around;
@@ -364,4 +385,10 @@ li a{
 .mid{
     display: flex;
     justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding-bottom: 4rem;
 }
