@@ -1,6 +1,12 @@
 {
+    "theme_color": "#D9D9D9",
+    "background_color": "#D9D9D9",
+    "display": "standalone",
+    "scope": ".",
+    "start_url": "./",
     "name": "Jop Heijnens | Frontend Developer",
     "short_name": "Portfolio",
+    "description": "Portfolio",
     "icons": [
         {
             "src": "/assets/icon-192x192.png",
@@ -22,11 +28,5 @@
             "sizes": "512x512",
             "type": "image/png"
         }
-    ],
-    "theme_color": "#D9D9D9",
-    "background_color": "#D9D9D9",
-    "display": "standalone",
-    "scope": ".",
-    "start_url": "./",
-    "description": "Portfolio"
+    ]
 }
