@@ -162,7 +162,6 @@ li a{
     margin: auto;
     overflow: hidden;
     z-index: 1;
-    top: 10%;
     color: #D9D9D9;
     mix-blend-mode: difference;
 }
@@ -203,7 +202,7 @@ li a{
     z-index: 1;
 }
 .foto-animation{
-    height: 700px;
+    height: 800px;
     display: flex;
 
 }
@@ -223,6 +222,7 @@ li a{
     padding-bottom:2rem;
     text-align: center;
     font-family: 'PP Monument Extended Light';
+    width: 1200px;
 }
 .button{
     background-color: black;
@@ -266,6 +266,7 @@ li a{
     justify-content: center;
 }
 .side-text{
+    padding-bottom: 40px;
     text-align: center;
 }
 .container-space{
@@ -339,7 +340,11 @@ li a{
     color: black;
     background-size: cover;
 }
-.link-dec-none{
+.link-dec-none-white{
+    text-decoration: none;
+    color: white;
+}
+.link-dec-none-black{
     text-decoration: none;
     color: black;
 }
@@ -407,4 +412,21 @@ footer{
     width:500px;
     text-align: center;
     align-content: center;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+}
+.padding-text-big-long-left{
+    padding-left: 200px;
+    padding-right: 20px;
+}
+.padding-text-big{
+    padding-left: 20px;
+}
+.padding-text-big-long-right{
+    padding-left: 20px;
+    padding-right: 200px;
 }
